@@ -1,0 +1,24 @@
+{
+  "name": "prisma-raid-callout-bot",
+  "version": "1.0.0",
+  "description": "The bot interface of the raid bot i'm working on for discord. It will store parties and possible substitutes allowing people to confirm attendance, get reps and more.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riezahughes/prisma-discord-raid-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riezahughes/prisma-discord-raid-bot/issues"
+  },
+  "homepage": "https://github.com/riezahughes/prisma-discord-raid-bot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.0.1",
+    "dotenv": "^8.2.0"
+  }
+}

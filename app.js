@@ -1,4 +1,5 @@
 require('dotenv').config()
+const axios = require('axios');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -33,7 +34,7 @@ client.on('message', msg => {
   if (msg.content === '!$removesub'){
     // Remove sub from party.
   }
-  
+
 });
 
 client.login(process.env.DISCORD_BOT_TOKEN);
