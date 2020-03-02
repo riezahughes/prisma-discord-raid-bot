@@ -13,18 +13,27 @@ client.on('message', msg => {
     // Check to see if db already has this person registered. If not, register to the bot as a leader.
   }
   if (msg.content === '!$createparty') {
-    // Creates Party for the leader who asks.
+    // Creates Party for the leader who asks. Use a nickname to quick reference maybe? 
   }
-  if (msg.content === '!$deleteparty') {
+  if (msg.content === '!$removeparty') {
     // delete party for leader who asks. Offer a prompt for it.
+  }
+  if (msg.content === '!$viewparty') {
+    // Check to see if db already has this person registered. If not, register to the bot as a leader.
   }
   if (msg.content === '!$addmember') {
     // Adds a member to the party. 
   }
+  if (msg.content === '!$removeme') {
+    // remove member from party. checks if they are a member or sub.
+  }
   if (msg.content === '!$addsub') {
     // Adds an Available Sub to the Party. 
   }
-
+  if (msg.content === '!$removesub'){
+    // Remove sub from party.
+  }
+  
 });
 
 client.login(process.env.DISCORD_BOT_TOKEN);
